@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "wafer-twin"
 version = "0.1.0"
 requires-python = ">=3.10"
-dependencies = ["pandas", "matplotlib"]
+dependencies = ["pandas", "matplotlib", "scipy", "statsmodels"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
